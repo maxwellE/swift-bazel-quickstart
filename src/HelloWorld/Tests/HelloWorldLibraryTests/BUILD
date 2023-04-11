@@ -8,6 +8,9 @@ swift_test(
     srcs = [
         "HelloWorldCommandTests.swift",
     ],
+    visibility = [
+        "@rules_xcodeproj//xcodeproj:generated",
+    ],
     deps = [
         "//src/HelloWorld/Sources/HelloWorldLibrary",
     ],

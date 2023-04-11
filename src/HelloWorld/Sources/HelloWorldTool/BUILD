@@ -5,6 +5,9 @@ swift_binary(
     srcs = [
         "main.swift",
     ],
+    visibility = [
+        "@rules_xcodeproj//xcodeproj:generated",
+    ],
     deps = [
         "//src/HelloWorld/Sources/HelloWorldLibrary",
     ],

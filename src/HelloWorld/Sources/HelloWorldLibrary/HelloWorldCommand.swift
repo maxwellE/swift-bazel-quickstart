@@ -22,7 +22,7 @@ public struct HelloWorldCommand: ParsableCommand {
         }
     }
 
-    public init() {
-        // NoOp
+    public init(programName: String?) {
+        self.programName = programName
     }
 }

@@ -11,6 +11,7 @@ swift_library(
     module_name = "HelloWorldLibrary",
     visibility = [
         "//src/HelloWorld/Sources/HelloWorldTool:__pkg__",
+        "//src/HelloWorld/Tests/HelloWorldLibraryTests:__pkg__",
     ],
     deps = [
         "@com_github_apple_swift_argument_parser//:ArgumentParser",

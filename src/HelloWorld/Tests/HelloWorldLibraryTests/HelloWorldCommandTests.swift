@@ -5,10 +5,10 @@
 //  Created by Maxwell Elliott on 04/11/23.
 //
 
+@testable import HelloWorldLibrary
+
 import ArgumentParser
 import XCTest
-
-@testable import HelloWorldLibrary
 
 final class HelloWorldCommandTests: XCTestCase {
 

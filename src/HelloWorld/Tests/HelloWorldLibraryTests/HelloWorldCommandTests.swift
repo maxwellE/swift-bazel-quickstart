@@ -39,7 +39,7 @@ final class HelloWorldCommandTests: XCTestCase {
 
     func test_run() throws {
         // GIVEN
-        let subject = HelloWorldCommand = .init(
+        let subject: HelloWorldCommand = .init(
             programName: "programName"
         )
 
